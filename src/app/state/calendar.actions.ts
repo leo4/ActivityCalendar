@@ -1,7 +1,6 @@
 import { createAction, props } from '@ngrx/store';
 import { CalendarEvent } from './calendar-event.model';
 
-
 export const loadEvents = createAction('[Calendar] Load Events');
 export const loadEventsSuccess = createAction(
   '[Calendar] Load Events Success',
