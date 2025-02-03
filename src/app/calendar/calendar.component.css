@@ -1,0 +1,114 @@
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  input.ng-invalid.ng-touched,
+  textarea.ng-invalid.ng-touched {
+    border: 1px solid red;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    background-color: #f5f5f5;
+  }
+  
+  .event-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .calendar-container {
+    padding: 20px;
+  }
+  
+  .actions {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .event-actions {
+    margin-top: 8px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .event-actions button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .edit-btn {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  .calendar-tooltip {
+    z-index: 9999 !important;
+  }
+  
+  .event-tooltip {
+    padding: 8px;
+  }
+  
+  .event-title {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .event-description {
+    margin-bottom: 12px;
+  }
+  
+  .event-actions {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .calendar-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .event-content {
+    padding: 4px;
+  }
+  
+  .event-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .event-description {
+    font-size: 0.9em;
+    margin-bottom: 4px;
+  }
+  
+  .event-actions {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .event-actions .btn {
+    padding: 2px 6px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 3px;
+  }
+  
+  .btn-success { background-color: #28a745; color: white; }
+  .btn-primary { background-color: #007bff; color: white; }
+  .btn-danger { background-color: #dc3545; color: white; }

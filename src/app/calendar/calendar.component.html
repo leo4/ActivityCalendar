@@ -1,0 +1,7 @@
+<div class="calendar-container">
+  <div class="actions">
+    <button mat-raised-button color="primary" (click)="openEventModal('Training')">Add Training</button>
+    <button mat-raised-button color="accent" (click)="openEventModal('Race')">Add Race</button>
+  </div>
+  <full-calendar id="calendar" [options]="calendarOptions"></full-calendar>
+</div>
