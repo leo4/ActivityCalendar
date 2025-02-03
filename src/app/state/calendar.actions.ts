@@ -1,4 +1,3 @@
-// calendar.actions.ts
 import { createAction, props } from '@ngrx/store';
 import { CalendarEvent } from './calendar-event.model';
 
@@ -26,7 +25,6 @@ export const addEventFailure = createAction(
   props<{ error: any }>()
 );
 
-// Update Event
 export const updateEvent = createAction(
   '[Calendar] Update Event',
   props<{ event: CalendarEvent }>()
