@@ -36,7 +36,7 @@ A modern web application for runners to manage their training sessions and races
 git clone https://github.com/leo4/ActivityCalendar.git
 
 # Navigate to project
-cd run-training-calendar
+cd my-run-app
 
 # Install dependencies
 npm install
